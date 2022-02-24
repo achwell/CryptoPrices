@@ -1,0 +1,19 @@
+{
+  "name": "crypto-prices",
+  "version": "1.0.0",
+  "description": "the live prices of crypto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/nodemon/bin/nodemon.js index.js "
+  },
+  "author": "Axel Wulff Sæther",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "https": "^1.0.0",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  }
+}
